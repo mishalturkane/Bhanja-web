@@ -61,9 +61,14 @@ body , html{
 #navbar #nav a:hover{
     color: #0BABB8;
 }
-
-#sidebar{
+#content{
+    width: 100%;
     height: 93%;
+
+    display: flex;
+}
+#content #sidebar{
+    height: 100%;
     width: 20%;
     background-color: #F6F7F8;
 }
@@ -87,3 +92,48 @@ body , html{
 #sidebar ul li ul ol li:hover{
     color: #0BABB8;
 }
+ #content #center{
+    width: 60%;
+    height: 100%;
+    background-color: rgb(231, 246, 246);
+}
+#content #right{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(245, 246, 246);
+}
+#content #center h1 {
+   font-size: 70px;
+   font-family: inter;
+   font-weight: 400;
+}
+#content #center p {
+    font-size: 20px;
+    font-family: inter;
+ }
+ #content #center h2 {
+    font-size: 40px;
+    font-family: inter;
+    font-weight: 400;
+ }
+ #content #center #h2 u{
+    font-style: rgb(211, 109, 7);
+    font-family: inter;
+ }
+ #content #center div{
+    background-color: rgb(233, 229, 225);
+    font-family: inter;
+ }
+  #right ul {
+    list-style: none;
+}
+ #center h2 span{
+    color: #0BABB8;
+ }
+ #content #right ul h3{
+    color: #0BABB8;
+ }
+ #content #right ul {
+    padding: 20px 20px 30px 20px  ;
+ }
+ 
